@@ -9,6 +9,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
+gem 'carrierwave'
+gem "fog", "~> 1.3.1"
+gem "figaro"
 
 group :production do
   gem 'pg'

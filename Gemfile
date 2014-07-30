@@ -12,6 +12,7 @@ gem 'bootstrap-sass'
 gem 'carrierwave'
 gem "fog", "~> 1.3.1"
 gem "figaro"
+gem "mini_magick"
 
 group :production do
   gem 'pg'

@@ -1,5 +1,6 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
+  
 
   # GET /restaurants
   # GET /restaurants.json
@@ -25,6 +26,7 @@ class RestaurantsController < ApplicationController
   # POST /restaurants.json
   def create
     @restaurant = Restaurant.new(restaurant_params)
+   
 
     respond_to do |format|
       if @restaurant.save
